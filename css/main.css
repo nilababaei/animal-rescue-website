@@ -1,6 +1,17 @@
 html {
   font-family: "Nanum Myeongjo", serif;
+  background-color: #2E4D52;
+}
+
+main {
   background-color: #EDD5C8;
+}
+
+.blah {
+  display: none;
+  visibility: hidden;
+  color: #fff;
+  font-family: "Black Han Sans", sans-serif;
 }
 
 nav {
@@ -12,10 +23,6 @@ header, footer {
   background-color: #CC6C54;
 }
 
-.i-logo {
-  width: 200px;
-}
-
 h1 {
   color: #fff;
   font-family: "Black Han Sans", sans-serif;
@@ -25,7 +32,7 @@ h1 {
   background-image: linear-gradient(to bottom, rgba(187, 189, 189, 0.4), rgba(187, 189, 189, 0.4)), url("../images/homepage-fox.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 52vh;
   background-position: top center;
 }
 
@@ -33,7 +40,7 @@ h1 {
   background-image: linear-gradient(to bottom, rgba(46, 77, 82, 0.6), rgba(46, 77, 82, 0.6)), url("../images/homepage-wheat.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 84vh;
+  height: 70vh;
   background-position: top center;
 }
 
@@ -56,25 +63,161 @@ h1 {
   border-color: #CC6C54;
 }
 
+.why {
+  text-decoration: none;
+  color: #fff;
+}
+
 footer {
   color: #fff;
 }
 
-a {
+li a {
   text-decoration: none;
   color: #fff;
   font-family: "Black Han Sans", sans-serif;
+}
+
+li a:hover {
+  color: #2E4D52;
+  background-color: #EDD5C8;
+  border-radius: 100px;
+}
+
+li:hover {
+  background-color: #EDD5C8;
+  border-radius: 100px;
 }
 
 small {
   font-family: "Black Han Sans", sans-serif;
 }
 
-.focus-nav:hover {
-  color: rgba(46, 77, 82);
+.opac-img {
+  width: 80%;
 }
 
-@media only screen and (min-width: 20em) {
+.color-nav {
+  background-color: #BBBDA8;
+  border-radius: 100px;
+}
 
+.nav {
+  display: none;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+label.nav-label::before {
+  top: -15.1em;
+}
+
+.nav-label {
+  cursor: pointer;
+  top: -11px;
+  right: 15px;
+}
+
+label.nav-label {
+  display: inline-block;
+  width: 50px;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 50px;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
+.main-c {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.buut:hover {
+  color: #2E4D52;
+  background-color: #CC6C54;
+}
+
+.buutn:hover {
+  background-color: #CC6C54;
+}
+
+@media only screen and (min-width: 48em) {
+
+  .nav-label {
+    right: 65px;
+  }
+
+  label.nav-label {
+    width: 80px;
+  }
+
+  .nav-open,
+  .nav-close {
+    width: 80px;
+  }
+
+  .opac-img {
+    width: 70%;
+    padding-left: 70px;
+  }
+
+  .banner-2 {
+    height: 60vh;
+  }
+
+  .blah {
+    display: inline-block;
+    visibility: visible;
+  }
+
+}
+
+@media only screen and (min-width: 64em) {
+
+  header {
+    text-align: center;
+  }
+
+  .opac-img {
+    width: 50%;
+    display: inline;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .blu {
+    padding-bottom: 0;
+  }
+
+  .nav-open,
+  .nav-close {
+    display: none;
+    visibility: hidden;
+  }
+
+  .nav {
+    display: inline-block;
+    visibility: visible;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
 
 }
