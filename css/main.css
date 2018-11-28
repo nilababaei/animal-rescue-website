@@ -1,0 +1,80 @@
+html {
+  font-family: "Nanum Myeongjo", serif;
+  background-color: #EDD5C8;
+}
+
+nav {
+  color: #fff;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+header, footer {
+  background-color: #CC6C54;
+}
+
+.i-logo {
+  width: 200px;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.banner {
+  background-image: linear-gradient(to bottom, rgba(187, 189, 189, 0.4), rgba(187, 189, 189, 0.4)), url("../images/homepage-fox.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  background-position: top center;
+}
+
+.banner-2 {
+  background-image: linear-gradient(to bottom, rgba(46, 77, 82, 0.6), rgba(46, 77, 82, 0.6)), url("../images/homepage-wheat.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 84vh;
+  background-position: top center;
+}
+
+.text-w {
+  color: #fff;
+}
+
+.my-button {
+  background-color: #BBBDA8;
+  border-color: #BBBDA8;
+  color: #fff;
+  border-radius: 100px;
+  font-family: "Black Han Sans", sans-serif;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.my-button:hover {
+  background-color: #CC6C54;
+  border-color: #CC6C54;
+}
+
+footer {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+small {
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.focus-nav:hover {
+  color: rgba(46, 77, 82);
+}
+
+@media only screen and (min-width: 20em) {
+
+
+}
