@@ -12,6 +12,11 @@
 </head>
 <body>
 
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
   <header>
     <div class="blu pad-t pad-b">
       <img class="opac-img img-flex island-1-2 gutter" src="images/logo.svg" alt="">
@@ -25,8 +30,9 @@
       <nav class="nav text-center pad-t-1-2 push-0">
         <ul class="list-group push-0 pad-b">
           <li class="island-1-4"><a href="index.html" class="current focus-nav island-1-4">Home</a></li>
-          <li class="island-1-4 color-nav"><a href="rescues.html" class="focus-nav island-1-4">Animals</a></li>
           <li class="island-1-4"><a href="#" class="focus-nav island-1-4">Sponsor</a></li>
+          <li class="island-1-4"><a href="rescues.html" class="focus-nav island-1-4">Animals</a></li>
+          <li class="island-1-4 color-nav"><a href="#" class="focus-nav island-1-4">Sponsor</a></li>
           <li class="island-1-4"><a href="#" class="focus-nav island-1-4">Donate</a></li>
           <li class="island-1-4"><a href="#" class="focus-nav island-1-4">About Us</a></li>
           <li class="island-1-4"><a href="#" class="focus-nav island-1-4">Contact</a></li>
@@ -35,7 +41,132 @@
     </div>
   </header>
 
-  <main>
+  <main class="max-length main-c">
+    <section class="frm max-length island">
+      <div class="pad-t">
+
+        <form action="https://formspree.io/nilababaei@hotmail.com" method="POST">
+          <fieldset class="push-none">
+            <legend class="blo giga bold push-1-2">Take the next step</legend>
+            <div class="grid">
+              <div class="unique unit xs-1 s-1 m-1-2 l-1-2 push">
+                <label class="hidden" for="province">Animal Sponsor</label>
+                <select class="special" id="province">
+                  <option value="">Animal sponsor</option>
+                  <option>Athena</option>
+                  <option>Luna and Venus</option>
+                  <option>Iris</option>
+                  <option>Arthur</option>
+                  <option>Zelda</option>
+                </select>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 push">
+                <label class="hidden" for="province">Sponsorship Level</label>
+                <select class="special" id="province">
+                  <option value="">Sponsorship level</option>
+                  <option>Friend</option>
+                  <option>Guardian</option>
+                  <option>Protector</option>
+                </select>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset class="push-none">
+            <legend class="blo push-1-2 bold giga normal">Credit Card Information</legend>
+            <div class="grid">
+              <div class="unit xs-1 m-1 l-1 push">
+                <label class="hidden" for="card-number">Card number</label>
+                <input id="card-number" type="number" placeholder="Card number" required>
+              </div>
+              <div class="unique unit xs-1 s-1 m-1-2 l-1-2 push">
+                <label class="hidden" for="expires">Expires</label>
+                <input id="expires" type="text" placeholder="Expires" required>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 push">
+                <label class="hidden" for="cvc">CVC</label>
+                <input id="cvc" type="number" placeholder="CVC" required>
+              </div>
+              <div class="unique unit xs-1 s-1 m-1-2 l-1-2 push">
+                <label class="hidden" for="first-name">First name</label>
+                <input id="first-name" type="text" placeholder="First name" required>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 push">
+                <label class="hidden" for="last-name">Last name</label>
+                <input id="last-name" type="text" placeholder="Last name" required>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend class="blo giga bold push-1-2">Billing Address</legend>
+            <div class="grid">
+              <div class="unique unit xs-1 s-1 m-1-2 l-1-2 push">
+                <label class="hidden" for="address">Street address</label>
+                <input id="address" type="text" placeholder="Street address" required>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 push">
+                <label class="hidden" for="city">City</label>
+                <input id="city" type="text" placeholder="City" required>
+              </div>
+              <div class="unique unit xs-1 s-1 m-1-2 l-1-2 push">
+                <label class="hidden" for="province">Province</label>
+                <select class="special" id="province">
+                  <option value="">Select a province</option>
+                  <option>Alberta</option>
+                  <option>British Columbia</option>
+                  <option>Manitoba</option>
+                  <option>New Brunswick</option>
+                  <option>Newfoundland & Labrador</option>
+                  <option>Northwest Territories</option>
+                  <option>Nova Scotia</option>
+                  <option>Nunavut</option>
+                  <option>Ontario</option>
+                  <option>Prince Edward Island</option>
+                  <option>Québec</option>
+                  <option>Saskatchewan</option>
+                  <option>Yukon</option>
+                </select>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 push">
+                <label class="hidden" for="postal">Postal code</label>
+                <input id="postal" type="text" placeholder="Postal code" required>
+              </div>
+            </div>
+            <div class="unit xs-1 m-1 l-1 push-0">
+              <input type="radio" id="billing" name="billing-address">
+              <label for="billing">Ship to my billing address</label>
+            </div>
+          </fieldset>
+          <fieldset class="push-none">
+            <legend class="push-1-2 bold blo giga normal">Contact Information</legend>
+            <div class="grid">
+              <div class="unique unit xs-1 s-1 m-1-2 l-1-2 push">
+                <label class="hidden" for="province">Phone type</label>
+                <select class="special" id="province">
+                  <option value="">Phone type</option>
+                  <option>Home</option>
+                  <option>Work</option>
+                  <option>Cell</option>
+                </select>
+              </div>
+              <div class="unit xs-1 m-1-2 l-1-2 push">
+                <label class="hidden" for="phone-number">Phone number</label>
+                <input id="phone-number" type="tel" placeholder="Phone number" required>
+              </div>
+              <div class="unit xs-1 m-1 l-1 push">
+                <label class="hidden" for="email">Email</label>
+                <input id="email" type="email" placeholder="Email" required>
+              </div>
+            </div>
+          </fieldset>
+          <div class="grid push">
+            <div class="max-length gutter absolute my-buttonn btn btn-ghost unit xs-1 m-1 l-1 text-center">
+              <button class="wow" type="submit">Pay Now</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </section>
   </main>
 
   <footer class="push-0 text-center">

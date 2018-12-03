@@ -84,6 +84,10 @@ li a:hover {
   border-radius: 100px;
 }
 
+li a:focus {
+  outline: 3px solid #2E4D52;
+}
+
 li:hover {
   background-color: #EDD5C8;
   border-radius: 100px;
@@ -155,6 +159,62 @@ label.nav-label {
 
 .buutn:hover {
   background-color: #CC6C54;
+}
+
+.skip-links {
+  position: absolute;
+  top: -3em;
+}
+
+.frm {
+  color: #2E4D52;
+}
+
+input {
+  border-color: #fff;
+  border-radius: 100px;
+}
+
+.special {
+  border-color: #fff;
+  border-radius: 100px;
+}
+
+.blo {
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.wow {
+  background-color: #2E4D52;
+  border-color: #2E4D52;
+}
+
+.wow:hover {
+  background-color: #CC6C54;
+  border-color: #CC6C54;
+}
+
+.my-buttonn {
+  background-color: #2E4D52;
+  border-color: #2E4D52;
+  color: #fff;
+  border-radius: 100px;
+  font-family: "Black Han Sans", sans-serif;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.my-buttonn:hover {
+  background-color: #CC6C54;
+  border-color: #CC6C54;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .unique {
+    padding-right: 1.5rem;
+  }
+
 }
 
 @media only screen and (min-width: 48em) {
