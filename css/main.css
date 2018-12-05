@@ -37,6 +37,7 @@ h1 {
 }
 
 .banner-2 {
+  background-color: #2E4D52;
   background-image: linear-gradient(to bottom, rgba(46, 77, 82, 0.6), rgba(46, 77, 82, 0.6)), url("../images/homepage-wheat.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -64,8 +65,19 @@ h1 {
 }
 
 .why {
+  background-color: #BBBDA8;
+  border-color: #BBBDA8;
+  color: #fff;
+  border-radius: 100px;
+  font-family: "Black Han Sans", sans-serif;
   text-decoration: none;
   color: #fff;
+}
+
+.why:hover {
+  color: #fff;
+  background-color: #CC6C54;
+  border-color: #CC6C54;
 }
 
 footer {
@@ -166,7 +178,8 @@ label.nav-label {
   top: -3em;
 }
 
-.frm {
+.frm,
+.bigun {
   color: #2E4D52;
 }
 
@@ -202,11 +215,26 @@ input {
   font-family: "Black Han Sans", sans-serif;
   left: 50%;
   transform: translateX(-50%);
+  width: 200px;
 }
 
 .my-buttonn:hover {
   background-color: #CC6C54;
   border-color: #CC6C54;
+}
+
+input[type=email],
+input[type=text],
+input[type=number],
+input[type=tel],
+select {
+padding: 15px;
+}
+
+.text-box {
+  color: #fff;
+  background-color: #2E4D52;
+  min-height:
 }
 
 @media only screen and (min-width: 38em) {
