@@ -19,17 +19,12 @@
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
 
-  <header>
+  <header role="banner">
     <div class="blu pad-t pad-b">
-      <img class="opac-img img-flex island-1-2 gutter" src="images/logo.svg" alt="">
+      <img class="opac-img img-flex island-1-2 gutter" src="images/logo.svg" alt="Bear Creek Sanctuary">
     </div>
-    <div>
-      <input type="checkbox" class="nav-check hidden" id="nav-check">
-      <label class="nav-label absolute pin-rt" for="nav-check">
-        <img class="nav-open" src="images/icon-open.svg" alt="Open Navigation">
-        <img class="nav-close" src="images/icon-close.svg" alt="Close Navigation">
-      </label>
-      <nav class="nav text-center pad-t-1-2 push-0">
+    <div class="max-length">
+      <nav class="nav text-center pad-t-1-2 push-0" role="navigation" id="nav" tabindex="0">
         <ul class="list-group push-0 pad-b">
           <li class="island-1-4 color-nav"><a href="#" class="current focus-nav island-1-4" aria-label="Home button">Home</a></li>
           <li class="island-1-4"><a href="rescues.html" class="focus-nav island-1-4" aria-label="Animals button">Animals</a></li>
@@ -42,24 +37,40 @@
     </div>
   </header>
 
-  <main class="max-length main-c">
-    <div class="banner push">
-      <h1 class="tera gutter-1-2 text-center pad-t wrapper">Welcome to Bear Creek Exotic Wildlife Sanctuary</h1>
-      <h2 class="blah kilo text-center wrapper">Education—Conservation—Preservation</h2>
-    </div>
-    <div class="banner-2 gutter-1-2 pad-t pad-b">
-      <p class="kilo text-w text-center">We are a Private Foundation registered charity.</p>
-      <p class="kilo text-w text-center">We are located just west of Barrie, Ontario, in Canada.</p>
-      <p class="kilo text-w text-center">We depend on our sponsors and supporters to help us care for our current residents and to attend to new animals who need our help.</p>
-      <p class="kilo text-w text-center">Our only source of funding and care for the animals is sponsorships from people like you!</p>
-      <p class="mega text-w text-center">Be a hero, sponsor an animal now!</p>
-      <div class="absolute my-button btn btn-ghost">
-        <a class="why mega" href="#" aria-label="Sponsor button">Sponsor</a>
+  <main class="max-length main-c" role="main" id="main" tabindex="0">
+    <section class="grid">
+      <div class="unit xs-1 s-1 m-1 l-1 banner push">
+        <div class="embed embed-3by2 hidden">
+          <img class="hidden embed-item" src="images/icon-open.svg" alt="" role="presentation">
+        </div>
+        <h1 class="tera gutter-1-2 text-center pad-t wrapper">Welcome to Bear Creek Exotic Wildlife Sanctuary</h1>
+        <h2 class="blah kilo text-center wrapper">Education—Conservation—Preservation</h2>
       </div>
+      <article class="unit xs-1 s-1 m-1 l-1 banner-2 gutter-1-2 pad-t pad-b">
+        <p class="kilo text-w text-center">We are a Private Foundation registered charity.</p>
+        <p class="kilo text-w text-center">We are located just west of Barrie, Ontario, in Canada.</p>
+        <p class="kilo text-w text-center">We depend on our sponsors and supporters to help us care for our current residents and to attend to new animals who need our help.</p>
+        <p class="kilo text-w text-center">Our only source of funding and care for the animals is sponsorships from people like you!</p>
+        <p class="mega text-w text-center">Be a hero, sponsor an animal now!</p>
+        <div class="absolute my-button btn btn-ghost">
+          <a class="why mega" href="#" aria-label="Sponsor button">Sponsor</a>
+        </div>
+      </article>
+    </section>
+    <div class="max-length b hidden">
+      <form action="https://formspree.io/nilababaei@hotmail.com" method="POST">
+        <fieldset class="push-0">
+          <legend class="hidden">Take the next step.</legend>
+          <div class="gutter pad-t pad-b-2">
+            <label class="kilo pad-b-1-8" for="details">Tell us a little about yourself!</label>
+            <textarea id="details" name="message" required></textarea>
+          </div>
+        </fieldset>
+      </form>
     </div>
   </main>
 
-  <footer class="push-0 text-center">
+  <footer class="push-0 text-center" role="contentinfo">
     <div class="pad-t pad-b">
       <small>Copyright © 2018 http://www.bearcreeksanctuary.com</small>
     </div>

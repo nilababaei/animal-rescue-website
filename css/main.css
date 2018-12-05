@@ -1,10 +1,10 @@
 html {
-  font-family: "Montserrat", sans-serif;
-  background-color: #2E4D52;
+  font-family: Montserrat, sans-serif;
+  background-color: #2e4d52;
 }
 
 main {
-  background-color: #EDD5C8;
+  background-color: #edd5c8;
 }
 
 .blah {
@@ -19,8 +19,8 @@ nav {
   font-family: "Archivo Black", sans-serif;
 }
 
-header, footer {
-  background-color: #CC6C54;
+header {
+  background-color: #edd5c8;
 }
 
 h1 {
@@ -29,7 +29,7 @@ h1 {
 }
 
 .banner {
-  background-image: linear-gradient(to bottom, rgba(187, 189, 189, 0.4), rgba(187, 189, 189, 0.4)), url("../images/homepage-fox.jpg");
+  background-image: linear-gradient(to bottom, rgba(187, 189, 189, .4), rgba(187, 189, 189, .4)), url("../images/homepage-fox.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 52vh;
@@ -37,8 +37,8 @@ h1 {
 }
 
 .banner-2 {
-  background-color: #2E4D52;
-  background-image: linear-gradient(to bottom, rgba(46, 77, 82, 0.6), rgba(46, 77, 82, 0.6)), url("../images/homepage-wheat.jpg");
+  background-color: #2e4d52;
+  background-image: linear-gradient(to bottom, rgba(46, 77, 82, .6), rgba(46, 77, 82, .6)), url("../images/homepage-wheat.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 70vh;
@@ -50,8 +50,8 @@ h1 {
 }
 
 .my-button {
-  background-color: #BBBDA8;
-  border-color: #BBBDA8;
+  background-color: #bbbda8;
+  border-color: #bbbda8;
   color: #fff;
   border-radius: 100px;
   font-family: "Archivo Black", sans-serif;
@@ -60,28 +60,23 @@ h1 {
 }
 
 .my-button:hover {
-  background-color: #CC6C54;
-  border-color: #CC6C54;
+  background-color: #cc6c54;
+  border-color: #cc6c54;
 }
 
 .why {
-  background-color: #BBBDA8;
-  border-color: #BBBDA8;
-  color: #fff;
+  background-color: #bbbda8;
+  border-color: #bbbda8;
+  color: #2e4d52;
   border-radius: 100px;
   font-family: "Archivo Black", sans-serif;
   text-decoration: none;
-  color: #fff;
 }
 
 .why:hover {
   color: #fff;
-  background-color: #CC6C54;
-  border-color: #CC6C54;
-}
-
-footer {
-  color: #fff;
+  background-color: #cc6c54;
+  border-color: #cc6c54;
 }
 
 li a {
@@ -91,17 +86,18 @@ li a {
 }
 
 li a:hover {
-  color: #2E4D52;
-  background-color: #EDD5C8;
+  color: #edd5c8;
+  background-color: #2e4d52;
   border-radius: 100px;
 }
 
 li a:focus {
-  outline: 3px solid #2E4D52;
+  outline: 3px solid #2e4d52;
 }
 
 li:hover {
-  background-color: #EDD5C8;
+  color: #edd5c8;
+  background-color: #2e4d52;
   border-radius: 100px;
 }
 
@@ -110,53 +106,13 @@ small {
 }
 
 .opac-img {
+  display: inline-block;
   width: 80%;
 }
 
 .color-nav {
-  background-color: #BBBDA8;
+  background-color: #bbbda8;
   border-radius: 100px;
-}
-
-.nav {
-  display: none;
-}
-
-.nav-check:checked ~ .nav {
-  display: block;
-}
-
-label.nav-label::before {
-  top: -15.1em;
-}
-
-.nav-label {
-  cursor: pointer;
-  top: -11px;
-  right: 15px;
-}
-
-label.nav-label {
-  display: inline-block;
-  width: 50px;
-}
-
-.nav-open,
-.nav-close {
-  display: block;
-  width: 50px;
-}
-
-.nav-close {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-open {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-close {
-  display: block;
 }
 
 .main-c {
@@ -165,22 +121,26 @@ label.nav-label {
 }
 
 .buut:hover {
-  color: #2E4D52;
-  background-color: #CC6C54;
+  color: #cc6c54;
+  background-color: #edd5c8;
 }
 
 .buutn:hover {
-  background-color: #CC6C54;
+  background-color: #edd5c8;
 }
 
-.skip-links {
+.skip-links a {
   position: absolute;
   top: -3em;
 }
 
+.skip-links a:focus {
+  top: 0;
+}
+
 .frm,
 .bigun {
-  color: #2E4D52;
+  color: #2e4d52;
 }
 
 input {
@@ -198,18 +158,18 @@ input {
 }
 
 .wow {
-  background-color: #2E4D52;
-  border-color: #2E4D52;
+  background-color: #2e4d52;
+  border-color: #2e4d52;
 }
 
 .wow:hover {
-  background-color: #CC6C54;
-  border-color: #CC6C54;
+  background-color: #cc6c54;
+  border-color: #cc6c54;
 }
 
 .my-buttonn {
-  background-color: #2E4D52;
-  border-color: #2E4D52;
+  background-color: #2e4d52;
+  border-color: #2e4d52;
   color: #fff;
   border-radius: 100px;
   font-family: "Archivo Black", sans-serif;
@@ -219,31 +179,47 @@ input {
 }
 
 .my-buttonn:hover {
-  background-color: #CC6C54;
-  border-color: #CC6C54;
-}
-
-input[type=email],
-input[type=text],
-input[type=number],
-input[type=tel],
-select {
-padding: 15px;
+  background-color: #cc6c54;
+  border-color: #cc6c54;
 }
 
 .text-box {
   color: #fff;
-  background-color: #2E4D52;
-  min-height:
+  background-color: #2e4d52;
 }
 
 .whoa {
-  background-color: #EDD5C8;
-  color: #2E4D52;
+  background-color: #edd5c8;
+  color: #2e4d52;
 }
 
 .tt {
   font-family: "Archivo Black", sans-serif;
+  color: #2e4d52;
+}
+
+footer {
+  background-color: #edd5c8;
+  color: #2e4d52;
+}
+
+.buut {
+  color: #2e4d52;
+}
+
+.b {
+  background-color: #2e4d52;
+  color: #fff;
+}
+
+a:focus {
+  outline: 3px solid #fff;
+  background-color: #fff;
+  color: #000;
+}
+
+.focus-nav {
+  color: #2e4d52;
 }
 
 @media only screen and (min-width: 38em) {
@@ -293,7 +269,6 @@ padding: 15px;
 
   .opac-img {
     width: 50%;
-    display: inline;
     padding-left: 0;
     padding-right: 0;
   }

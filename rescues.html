@@ -19,17 +19,12 @@
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
 
-  <header>
+  <header role="banner">
     <div class="blu pad-t pad-b">
-      <img class="opac-img img-flex island-1-2 gutter" src="images/logo.svg" alt="">
+      <img class="opac-img img-flex island-1-2 gutter" src="images/logo.svg" alt="Bear Creek Sanctuary">
     </div>
-    <div>
-      <input type="checkbox" class="nav-check hidden" id="nav-check">
-      <label class="nav-label absolute pin-rt" for="nav-check">
-        <img class="nav-open" src="images/icon-open.svg" alt="Open Navigation">
-        <img class="nav-close" src="images/icon-close.svg" alt="Close Navigation">
-      </label>
-      <nav class="nav text-center pad-t-1-2 push-0">
+    <div class="max-length">
+      <nav class="nav text-center pad-t-1-2 push-0" role="navigation" id="nav" tabindex="0">
         <ul class="list-group push-0 pad-b">
           <li class="island-1-4"><a href="index.html" class="current focus-nav island-1-4" aria-label="Home button">Home</a></li>
           <li class="island-1-4 color-nav"><a href="#" class="focus-nav island-1-4" aria-label="Animals button">Animals</a></li>
@@ -42,7 +37,10 @@
     </div>
   </header>
 
-  <main>
+  <main role="main" id="main" tabindex="0">
+    <div class="embed embed-3by2 hidden">
+      <img class="hidden embed-item" src="images/icon-open.svg" alt="" role="presentation">
+    </div>
     <h1 class="tera bigun gutter-1-2 text-center pad-t-1-2">Meet Our Animals!</h1>
     <section class="grid wrapper">
       <div class="unit xs-1 s-1 m-1-2 l-1-2">
@@ -50,11 +48,11 @@
       </div>
       <article class="unit xs-1 s-1 m-1-2 l-1-2 text-box text-center island-2">
         <p class="text-center max-length island push-0">This is our beautiful polar bear Athena. She’s a five year old beauty who was rescued from a zoo who was keeping her captivated. She has been with us for only a year, but has warmed up to most of the other bears.</p>
-        <a class="btn btn-ghost why" href="#" class="mega" aria-label="Sponsor button">Sponsor</a>
+        <a class="btn btn-ghost why mega" href="#" aria-label="Sponsor button">Sponsor</a>
       </article>
       <article class="unit xs-1 s-1 m-1-2 l-1-2 text-box text-center island-2">
         <p class="text-center max-length island push-0">Meet Luna and Venus, our two feisty lioness’. They have been in our sanctuary for over 10 years, coming from a circus where they were locked up, beaten, and malnourished until they would perform.</p>
-        <a class="btn btn-ghost why" href="#" class="mega" aria-label="Sponsor button">Sponsor</a>
+        <a class="btn btn-ghost why mega" href="#" aria-label="Sponsor button">Sponsor</a>
       </article>
       <div class="unit xs-1 s-1 m-1-2 l-1-2">
         <img class="img-flex" src="images/tigers-luna-venus.jpg" alt="Image of the tigers Luna and Venus">
@@ -64,11 +62,11 @@
       </div>
       <article class="unit xs-1 s-1 m-1-2 l-1-2 text-box text-center island-2">
         <p class="text-center max-length island push-0">This is our red tailed fox, Iris. She came to us with her tail almost fully detached and a broken paw. We have since taken her in and cared for her until she’s healthy enough to return to the wild.</p>
-        <a class="btn btn-ghost why" href="#" class="mega" aria-label="Sponsor button">Sponsor</a>
+        <a class="btn btn-ghost why mega" href="#" aria-label="Sponsor button">Sponsor</a>
       </article>
       <article class="unit xs-1 s-1 m-1-2 l-1-2 text-box text-center island-2">
         <p class="text-center max-length island push-0">This beautiful fox is Arthur. We took him in when he was found at just a few weeks old, with his mother shot down right beside him. He has been with us for over five years, and continues to spread hope with everyone he meets.</p>
-        <a class="btn btn-ghost why" href="#" class="mega" aria-label="Sponsor button">Sponsor</a>
+        <a class="btn btn-ghost why mega" href="#" aria-label="Sponsor button">Sponsor</a>
       </article>
       <div class="unit xs-1 s-1 m-1-2 l-1-2">
         <img class="img-flex" src="images/fox-arthur.jpg" alt="Image of the fox Arthur">
@@ -78,12 +76,23 @@
       </div>
       <article class="unit xs-1 s-1 m-1-2 l-1-2 text-box text-center island-2">
         <p class="text-center max-length island push-0">This is our antelope Zelda. She has been with us for a few months, coming from a zoo that malnourished and kept her in a small cage. She has warmed up well with all our other antelopes.</p>
-        <a class="btn btn-ghost why" href="#" class="mega" aria-label="Sponsor button">Sponsor</a>
+        <a class="btn btn-ghost why mega" href="#" aria-label="Sponsor button">Sponsor</a>
       </article>
     </section>
+    <div class="max-length b hidden">
+      <form action="https://formspree.io/nilababaei@hotmail.com" method="POST">
+        <fieldset>
+          <legend class="hidden">Take the next step.</legend>
+          <div class="gutter pad-t pad-b-1-2">
+            <label class="kilo pad-b-1-8" for="details">Tell us a little about yourself!</label>
+            <textarea id="details" name="message" required></textarea>
+          </div>
+        </fieldset>
+      </form>
+    </div>
   </main>
 
-  <footer class="push-0 text-center">
+  <footer class="push-0 text-center" role="contentinfo">
     <div class="pad-t pad-b">
       <small>Copyright © 2018 http://www.bearcreeksanctuary.com</small>
     </div>
