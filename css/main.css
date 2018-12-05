@@ -237,6 +237,15 @@ padding: 15px;
   min-height:
 }
 
+.whoa {
+  background-color: #EDD5C8;
+  color: #2E4D52;
+}
+
+.tt {
+  font-family: "Black Han Sans", sans-serif;
+}
+
 @media only screen and (min-width: 38em) {
 
   .unique {
