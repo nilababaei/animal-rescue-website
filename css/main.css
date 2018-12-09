@@ -226,6 +226,11 @@ a:focus {
   color: #2e4d52;
 }
 
+.txt-none {
+  text-decoration: none;
+  color: #2e4d52;
+}
+
 @media only screen and (min-width: 38em) {
 
   .unique {
