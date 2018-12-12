@@ -82,8 +82,8 @@ h1 {
 }
 
 .whyy {
-  background-color: #cc6c54;
-  border-color: #cc6c54;
+  background-color: #edd5c8;
+  border-color: #edd5c8;
   border-radius: 100px;
   font-family: "Archivo Black", sans-serif;
   text-decoration: none;
@@ -91,8 +91,8 @@ h1 {
 
 .whyy:hover {
   color: #2e4d52;
-  background-color: #edd5c8;
-  border-color: #edd5c8;
+  background-color: #bbbda8;
+  border-color: #bbbda8;
 }
 
 .bootyy {
@@ -109,7 +109,6 @@ li a {
   text-decoration: none;
   color: #fff;
   font-family: "Archivo Black", sans-serif;
-
 }
 
 li a:hover {
@@ -117,7 +116,6 @@ li a:hover {
   background-color: #2e4d52;
   border-radius: 100px;
 }
-
 
 li a:focus {
   outline: 3px solid #2e4d52;
