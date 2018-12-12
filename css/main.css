@@ -61,6 +61,7 @@ h1 {
   font-family: "Archivo Black", sans-serif;
   left: 50%;
   transform: translateX(-50%);
+  transition: all 800ms linear;
 }
 
 .my-button:hover {
@@ -87,6 +88,7 @@ h1 {
   border-radius: 100px;
   font-family: "Archivo Black", sans-serif;
   text-decoration: none;
+  transition: all 800ms linear;
 }
 
 .whyy:hover {
@@ -184,6 +186,7 @@ input {
   border-radius: 100px;
   font-family: "Archivo Black", sans-serif;
   width: 200px;
+  transition: all 800ms linear;
 }
 
 .wow:hover {
@@ -230,6 +233,7 @@ footer {
 
 .buut {
   color: #2e4d52;
+  transition: all 800ms linear;
 }
 
 .b {
