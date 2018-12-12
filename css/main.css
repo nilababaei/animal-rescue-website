@@ -69,24 +69,47 @@ h1 {
 }
 
 .why {
-  background-color: #bbbda8;
-  border-color: #bbbda8;
-  color: #2e4d52;
+  background-color: #cc6c54;
+  border-color: #cc6c54;
   border-radius: 100px;
   font-family: "Archivo Black", sans-serif;
   text-decoration: none;
 }
 
 .why:hover {
-  color: #fff;
+  background-color: #2e4d52;
+  border-color: #2e4d52;
+}
+
+.whyy {
   background-color: #cc6c54;
   border-color: #cc6c54;
+  border-radius: 100px;
+  font-family: "Archivo Black", sans-serif;
+  text-decoration: none;
+}
+
+.whyy:hover {
+  color: #2e4d52;
+  background-color: #edd5c8;
+  border-color: #edd5c8;
+}
+
+.bootyy {
+  text-decoration: none;
+  color: #2e4d52;
+}
+
+.booty {
+  text-decoration: none;
+  color: #fff;
 }
 
 li a {
   text-decoration: none;
   color: #fff;
   font-family: "Archivo Black", sans-serif;
+
 }
 
 li a:hover {
@@ -95,14 +118,9 @@ li a:hover {
   border-radius: 100px;
 }
 
+
 li a:focus {
   outline: 3px solid #2e4d52;
-}
-
-li:hover {
-  color: #edd5c8;
-  background-color: #2e4d52;
-  border-radius: 100px;
 }
 
 small {
@@ -164,6 +182,10 @@ input {
 .wow {
   background-color: #2e4d52;
   border-color: #2e4d52;
+  color: #fff;
+  border-radius: 100px;
+  font-family: "Archivo Black", sans-serif;
+  width: 200px;
 }
 
 .wow:hover {
@@ -179,6 +201,7 @@ input {
   font-family: "Archivo Black", sans-serif;
   left: 50%;
   transform: translateX(-50%);
+  padding: 0;
   width: 200px;
 }
 
@@ -240,19 +263,6 @@ a:focus {
 }
 
 @media only screen and (min-width: 48em) {
-
-  .nav-label {
-    right: 65px;
-  }
-
-  label.nav-label {
-    width: 80px;
-  }
-
-  .nav-open,
-  .nav-close {
-    width: 80px;
-  }
 
   .opac-img {
     width: 70%;
