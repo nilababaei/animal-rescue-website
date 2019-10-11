@@ -20,12 +20,16 @@ p {
   font-weight: 900;
 }
 
+.nav-align {
+  text-align: center;
+}
+
 .current {
   font-weight: 900;
 }
 
 .logo {
-  max-width: 300px;
+  max-width: 250px;
   margin: 0 auto;
 }
 
@@ -61,4 +65,22 @@ p {
 
 .btn-ghost:hover a {
   color: #ffffff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .header-text {
+    padding-left: 0;
+    margin-left: 15px;;
+  }
+
+  .logo {
+    text-align: left;
+    margin: 0;
+  }
+
+  .nav-align {
+    text-align: right;
+  }
+
 }
