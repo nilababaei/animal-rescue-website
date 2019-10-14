@@ -151,12 +151,34 @@ p {
   background-color: #B0aeac;
 }
 
+.story-card-light {
+  background-color: #f5f5f5;
+}
+
+.story-card-medium {
+  background-color: #e3e3e3;
+}
+
 .animal-name-bg {
   background-color: #2A311F;
 }
 
 .cta-bg {
   background-image: url("../images/fox-banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cta-bg-2 {
+  background-image: url("../images/bear-banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cta-bg-3 {
+  background-image: url("../images/lion-banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -170,6 +192,11 @@ p {
 .footer-bg {
   background-color: #2A311F;
   color: #ffffff;
+}
+
+.social-icon:hover {
+  transform: scale(1.05);
+  transition: all 150ms linear;
 }
 
 @media only screen and (min-width: 38em) {
