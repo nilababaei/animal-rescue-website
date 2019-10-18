@@ -287,6 +287,32 @@ p {
   border-bottom: solid 4px #435f59;
 }
 
+.legend-style {
+  color: #000;
+  font-weight: 900;
+  font-family: Poppins, sans-serif;
+}
+
+input, textarea, select {
+  color: #000;
+  opacity: .5;
+  font-family: Raleway, sans-serif;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.island-eighth, .island-1-8, input:not([type="checkbox"]), input:not([type="radio"]), textarea {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+fieldset {
+  border: none;
+}
+
 @media only screen and (min-width: 38em) {
 
   .header-text {
